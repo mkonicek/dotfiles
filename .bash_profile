@@ -32,5 +32,7 @@ STAR="\\xe2\\x98\\x85"
 #export PS1='\h${STAR} `git_branch` \W '
 PS1=$'$(git_branch)$(hg_branch)\W $ '
 
+# Usage: git ld client/app/apps/execution-details/JobState.tsx
+git config --global alias.ld 'log --follow --oneline'
 
 alias adb_genymotion="adb connect 192.168.56.101"
