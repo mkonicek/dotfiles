@@ -1,7 +1,7 @@
 export PATH="/usr/local/bin:${PATH}:/Users/martin/arcanist/arcanist/bin"
 export PATH="$HOME/.cargo/bin:$PATH"
 
-export EDITOR=vim
+export EDITOR='code --wait'
 
 export ANDROID_HOME="/Users/martin/Library/Android/sdk"
 export PATH=$PATH:/Users/martin/Library/Android/sdk/platform-tools/
