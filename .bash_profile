@@ -13,6 +13,9 @@ export MYPYPATH=~/code/mypy-stubs
 
 eval "$(starship init bash)"
 
+# Nice git history
+alias 'll'='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+
 # function git_branch() {
 #   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\[\1\] /'
 # }
